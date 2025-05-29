@@ -8,6 +8,7 @@ import InputTanggal from "@/components/ui/inputTanggal";
 import InputWilayah from "@/components/ui/inputWilayah";
 import Loader from "@/components/ui/loader";
 import { useState } from "react";
+import { DateTime } from "luxon";
 
 export default function Simulation() {
     const [selectedDate, setSelectedDate] = useState("");
@@ -30,14 +31,14 @@ export default function Simulation() {
         "Supermarket": 1.20,
     };
 
-    // Fungsi untuk menghitung hari ke-N dari hari ini
     const calculateHariKeN = (tanggal: string): number => {
-        const today = new Date();
-        const selected = new Date(tanggal);
-        const diffTime = selected.getTime() - today.getTime();
-        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-        return diffDays + 1; // hari ke-1 = hari ini
+        const today = DateTime.now().setZone("Asia/Jakarta").startOf("day");
+        const selected = DateTime.fromISO(tanggal, { zone: "Asia/Jakarta" }).startOf("day");
+        const diff = selected.diff(today, "days").toObject().days ?? 0;
+        return diff;
     };
+    
+       
 
     const handleSubmit = async () => {
         if (selectedCommodities.length === 0 || !selectedDate) {
@@ -49,6 +50,7 @@ export default function Simulation() {
 
         const komoditas = selectedCommodities.map(c => c.id_komoditas);
         const hari = calculateHariKeN(selectedDate);
+        console.log("Mengirim ke API:", { komoditas, hari });
 
         try {
             const response = await fetch("/api/simulasi", {
