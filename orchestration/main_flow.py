@@ -43,3 +43,7 @@ def main_flow():
 
     for script in prediction_scripts:
         run_script(script)
+
+
+if __name__ == "__main__":
+    main_flow()
