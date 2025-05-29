@@ -33,6 +33,7 @@ Aplikasi web untuk monitoring harga pangan harian, prediksi harga dalam beberapa
 ## 🔗 Link Presentasi
 
 🌐 **Canva Link:** [https://www.canva.com/design/DAGnhbS_CPU/bXiXGLG9tldSuBd-jhdgtQ/edit?utm_content=DAGnhbS_CPU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGnhbS_CPU/bXiXGLG9tldSuBd-jhdgtQ/edit?utm_content=DAGnhbS_CPU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+🌐 **Video Presentasi:** [Video Presentasi](https://youtu.be/Xj6J3l6OJRs)
 
 ## 🔗 Link Collab Model
 
