@@ -28,7 +28,7 @@ Aplikasi web untuk monitoring harga pangan harian, prediksi harga dalam beberapa
 
 ## 🔗 Link Deploy
 
-🌐 **Live App:** [https://harvestx.vercel.app](https://harvestx.vercel.app)
+🌐 **Live App:** [https://harvestx.vercel.app](https://harvestx-app.vercel.app)
 
 ## 🔗 Link Presentasi
 
