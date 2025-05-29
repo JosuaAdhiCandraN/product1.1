@@ -34,10 +34,6 @@ Aplikasi web untuk monitoring harga pangan harian, prediksi harga dalam beberapa
 
 🌐 **Canva Link:** [https://www.canva.com/design/DAGnhbS_CPU/bXiXGLG9tldSuBd-jhdgtQ/edit?utm_content=DAGnhbS_CPU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGnhbS_CPU/bXiXGLG9tldSuBd-jhdgtQ/edit?utm_content=DAGnhbS_CPU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-## 🔗 Link Github Model AI HarvestX 
-
-🌐 **Github Model AI HarvestX:** [...](...)
-
 ## 🛠️ Instalasi Lokal
 
 1. Clone repositori ini
